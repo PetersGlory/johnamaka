@@ -37,7 +37,10 @@ const LoveStory = () => {
                     </p>
                 </div>
                 <div className="">
-                    <Image src={LoveImage} alt='Love story' />
+                    <Image src={LoveImage} style={{
+                        width: 400,
+                        height: 208
+                    }} alt='Love story' />
                 </div>
             </div>
           </div>
