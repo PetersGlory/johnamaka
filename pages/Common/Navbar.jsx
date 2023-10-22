@@ -56,7 +56,7 @@ const Navbar = () => {
             <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:flex-row md:space-x-[40px] md:mt-0 md:border-0">
               <li>
                 <Link href="/">
-                  <a href="#" className={`block py-2 pl-3 pr-4 ${colorChange && "text-gray-700"} rounded md:bg-transparent md:hover:text-blue-700 md:p-0 ${routers.pathname === "/" && "bg-blue-700 md:bg-transparent md:text-blue-300"}`} aria-current="page">Home</a> 
+                  <a href="#" className={`block py-2 pl-3 pr-4 ${colorChange && "text-gray-700"} text-gray-300 rounded md:bg-transparent md:hover:text-blue-700 md:p-0 ${routers.pathname === "/" && "bg-blue-700 md:bg-transparent md:text-blue-300"}`} aria-current="page">Home</a> 
                 </Link>
               </li>
               <li>

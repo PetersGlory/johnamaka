@@ -11,7 +11,7 @@ const Writetous = () => {
                         <iframe
                         className='iframe'
                         height="530"
-                        src="https://docs.google.com/forms/d/e/1FAIpQLSe6twG-rzMkz5ntuRApVaCDYRBKZ3oaS_bGGRGRfij3F_LRdw/viewform?embedded=true&hl=en"
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSetf7aeWgFdikRm64HxKCSJc1fRzfq-cPKUOm3R7ff5ww54Iw/viewform?embedded=true&hl=en"
                         title="write us a message"
                         width="640"
                         >
