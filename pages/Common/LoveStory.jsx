@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import LoveImage from "../../assets/img/hero-2.jpg"
 
 const LoveStory = () => {
   return (
@@ -36,7 +37,7 @@ const LoveStory = () => {
                     </p>
                 </div>
                 <div className="">
-                    <Image src={require("../../assets/img/hero-2.jpg")}  alt='love' />
+                    <Image src={LoveImage}  alt='/' />
                 </div>
             </div>
           </div>
