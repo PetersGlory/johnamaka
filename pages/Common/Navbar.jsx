@@ -60,13 +60,13 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/about">
-                  <a href="#" className={`block py-2 pl-3 pr-4 ${colorChange && "text-gray-700"} text-gray-300 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-700 md:p-0 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 ${routers.pathname === "/about" && "bg-orange-700 md:bg-transparent md:text-orange-600"}`}>About Us</a> 
+                <Link href="/info-section">
+                  <a href="#" className={`block py-2 pl-3 pr-4 ${colorChange && "text-gray-700"} text-gray-300 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-700 md:p-0 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 ${routers.pathname === "/info-section" && "bg-orange-700 md:bg-transparent md:text-orange-600"}`}>Navigation</a> 
                 </Link>
               </li>
               <li>
-                <Link href="/events">
-                  <a href="#" className={`block py-2 pl-3 pr-4 ${colorChange && "text-gray-700"} text-gray-300 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-700 md:p-0 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 ${routers.pathname === "/events" && "bg-orange-700 md:bg-transparent md:text-orange-600"}`}>Events</a> 
+                <Link href="/gallery">
+                  <a href="#" className={`block py-2 pl-3 pr-4 ${colorChange && "text-gray-700"} text-gray-300 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-700 md:p-0 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 ${routers.pathname === "/gallery" && "bg-orange-700 md:bg-transparent md:text-orange-600"}`}>Timeline</a> 
                 </Link>
               </li>
               <li>

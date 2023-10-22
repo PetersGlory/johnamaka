@@ -3,7 +3,7 @@ import React from 'react'
 const Locationed = () => {
   return (
     <>
-        <div className="w-full items-center justify-center p-5 flex flex-col">
+        <div className="w-full items-center justify-center p-5 flex flex-col py">
             <h2 className="text-gray-600 mb-4 text-2xl font-bold uppercase">Venue Map</h2>
             <div className="w-full">
                 <div className="col-sm-12 mb-4 text-center">
