@@ -37,7 +37,7 @@ const LoveStory = () => {
                     </p>
                 </div>
                 <div className="">
-                    <Image src={LoveImage}  alt='Love story' />
+                    <Image src={LoveImage} alt='Love story' />
                 </div>
             </div>
           </div>
