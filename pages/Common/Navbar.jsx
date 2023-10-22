@@ -2,7 +2,6 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import Logo from "../../assets/img/logo.png"
 import Link from "next/link";
 import { useRouter } from "next/router";
 
